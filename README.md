@@ -16,6 +16,21 @@ This project is a GUI based tool that allows users to convert source code writte
 - GCC and objdump command-line tools (included with most Linux distributions and can be installed on Windows using MinGW or Cygwin)
 - Tkinter library (usually included with Python)
 
+## Donwload Resources GCC & Objdump:
+
+## For Windows:
+
+GCC can be downloaded from the [MinGW-w64 project website](https://mingw-w64.org/)
+objdump is part of the GCC package, so it will be installed along with GCC
+
+## For Linux:
+GCC can be installed using the package manager of your distribution. For example, on Ubuntu, you can use the following command: `sudo apt-get install gcc` 
+objdump is part of the binutils package, so it will be installed along with GCC
+
+## For macOS:
+GCC can be installed using the Homebrew package manager by running the command `brew install gcc`
+objdump is part of the binutils package, so it will be installed along with GCC
+
 ## Running the tool
 Clone or download the repository to your local machine
 Open a terminal or command prompt and navigate to the project directory
