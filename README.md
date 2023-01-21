@@ -44,6 +44,20 @@ To view the assembly code, click the "Convert to Assembly" button. You can also 
 To view the hexadecimal code, click the "Convert to Hex" button. The output can also be grouped by 2 bytes</br>
 The assembly code and hexadecimal code will be displayed in the "Assembly" and "Hex" tabs, respectively</br>
 
+## Source Editor
+The Source Editor tab is where you can open and view the source code for your C or C++ program. You can use the "Open File" button to select and open a file from your computer.
+
+![Source Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54340-am.png)
+
+## Assembly Editor
+The Assembly tab is where you can view the assembly code generated from your source code. You can use the checkboxes to control the output, choosing between opcodes only or instructions only. You can also use the "Convert to Assembly" button to generate the assembly code.
+
+![Assembly Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54355-am.png)
+
+## Hex Editor
+The Hex tab is where you can view the hexadecimal code generated from your source code. You can use the "Convert to Hex" button to generate the hex code.
+![Hex Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54406-am.png)
+
 ## Limitations
 - Only C and C++ source code can be converted</br>
 - The tool currently only supports x86 architecture</br>
