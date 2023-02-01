@@ -47,16 +47,16 @@ The assembly code and hexadecimal code will be displayed in the "Assembly" and "
 ## Source Editor
 The Source Editor tab is where you can open and view the source code for your C or C++ program. You can use the "Open File" button to select and open a file from your computer.
 
-![Source Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54340-am.png)
+![Source Editor](https://github.com/haseeb-heaven/Py-SourceCode-Convertor/blob/main/resources/app_ui_source.png)
 
 ## Assembly Editor
 The Assembly tab is where you can view the assembly code generated from your source code. You can use the checkboxes to control the output, choosing between opcodes only or instructions only. You can also use the "Convert to Assembly" button to generate the assembly code.
 
-![Assembly Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54355-am.png)
+![Assembly Editor](https://github.com/haseeb-heaven/Py-SourceCode-Convertor/blob/main/resources/app_ui_assembly.png)
 
 ## Hex Editor
 The Hex tab is where you can view the hexadecimal code generated from your source code. You can use the "Convert to Hex" button to generate the hex code.
-![Hex Editor](https://tiny-img.com/images/custom-uploads/optimized/screen-shot-2023-01-21-at-54406-am.png)
+![Hex Editor](https://github.com/haseeb-heaven/Py-SourceCode-Convertor/blob/main/resources/app_ui_hex.png)
 
 ## Limitations
 - Only C and C++ source code can be converted</br>
