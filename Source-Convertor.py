@@ -1,4 +1,9 @@
 #Py-Source Convertor is tool to convert any source file to Assembly/Hex (Binary) using Python and GCC tools.
+# This tool uses the following tools:
+# 1. GCC - GNU Compiler Collection
+# 2. objdump - GNU object file disassembler
+# 3. xxd - make a hexdump or do the reverse
+# 4. tkinter - Python GUI library
 # Written by Haseeb Mir @ 2023.
 
 import tkinter as tk
@@ -6,7 +11,6 @@ from tkinter import filedialog
 from tkinter import messagebox
 import subprocess
 import os
-import re
 from tkinter import ttk
 
 # Clear all the panes
@@ -113,11 +117,6 @@ convert_to_hex_button.pack()
 # Create a help button
 help_button = tk.Button(root, text="Help", command=show_help)
 help_button.pack()
-
-# Make UI panes disabled.
-#source_pane.config(state="disabled")
-#assembly_pane.config(state="disabled")
-#hex_pane.config(state="disabled")
 
 # Pack the tab control and start the GUI event loop
 tab_control.pack(expand=1, fill='both')
